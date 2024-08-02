@@ -1,0 +1,161 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20% 10px;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.heading{
+    text-align: center;
+}
+.heading h1 {
+    font-size: 2.5em; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+}
+
+header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+header a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+a.action-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a.action-link:hover {
+    text-decoration: underline;
+}
+
+.copy-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background-color: #218838;
+}
+
+.copy-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+input[readonly] {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    cursor: not-allowed;
+}
+
+.copy-btn.copied {
+    background-color: #17a2b8;
+}
+
+.copy-btn.copied:hover {
+    background-color: #117a8b;
+}
+
+.nav-link {
+    color: #007bff; 
+    text-decoration: none; 
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
